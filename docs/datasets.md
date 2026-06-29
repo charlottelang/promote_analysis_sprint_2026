@@ -5,7 +5,7 @@ The analyses are based on datasets from model experiments using UKESM or its mod
 
 ## Model experiments
 ### CANARI HadGEM3 Large Ensemble
-The CANARI-LE (Schiemann et al., 2026) consists of 40 ensemble members of both the CMIP6 historical (1950-2014) simulation and SSP3-7.0 (2015-2100). The simulations have been completed with HadGEM3-GC1.3-MM, with the same configuration as used in CMIP6 (global configuration version 3.1).
+The CANARI-LE (<span style="color:red">Schiemann et al., 2026</span>) consists of 40 ensemble members of both the CMIP6 historical (1950-2014) simulation and SSP3-7.0 (2015-2100). The simulations have been completed with HadGEM3-GC1.3-MM, with the same configuration as used in CMIP6 (global configuration version 3.1).
 
 
 <span style="font-weight: 650;">Model details</span>
@@ -18,9 +18,9 @@ The CANARI-LE (Schiemann et al., 2026) consists of 40 ensemble members of both t
 
 <span style="font-weight: 550;">Data access</span>
 
-* 
-* 
-More information on the CANARI-LE can be found on the [here](https://ncas-cms.github.io/canari/).
+* <span style="color:red"> Where is the data apart from MASS?</span>
+* <span style="color:red"> Priority variables on Jasmin for CANARI. Is there enough for PROMOTE?</span>
+* More information on the CANARI-LE can be found on the [here](https://ncas-cms.github.io/canari/).
 
 
 ### TerraFirma UKESM TIPMIP experiment
@@ -31,12 +31,6 @@ The Terrafirma Overshoot ensemble follows the TIPMIP protocol (Jones et al., 202
   <img src="/tipmip_protocol.jpg" alt="tipmip" height="350">
   <figcaption><strong>Figure 1:</strong> The TIPMIP Tier 1 Earth system model (ESM) experiment protocol. ESMs are run in CO<sub>2</sub> emission mode with predicted atmospheric CO<sub>2</sub> concentration and a full carbon cycle.</figcaption>
 </figure>
-
-
-<!--<figure>
-  <img src="tipmip_protocol.jpg" alt="tipmip" width="300">
-  <figcaption><strong>Figure 1:</strong> The TIPMIP Tier 1 Earth system model (ESM) experiment protocol. ESMs are run in CO2 emission mode with predicted atmospheric CO2 concentration and a full carbon cycle.</figcaption>
-</figure> -->
 
 
 <span style="font-weight: 550;">Model details</span>
@@ -76,18 +70,17 @@ Below is a non-exhaustive list of useful observational products and reanalyses.
 
 
 ## Useful files
-*List of masks with location*
-<!--<span style="color:red">*Masks and stuff*
+<span style="color:red">*List of masks with location*</span>
 
-<span style="color:red">*Ocean: on CANARI website, mentions mesh_mask and subbasins*
+<span style="color:red">* Ocean: see CANARI website (mesh_mask and subbasins)</span>
 
-<span style="color:red">*Ice sheet: most ice people already have the masks but lat/lon for ice sheet grids, land and tile fractions and grid box are on UM grid. Ice sheet masks (mask for GrIS, what for AIS?) are in output files and are time dependent.*
--->
+<span style="color:red">* Ice sheet: lat/lon for ice sheet grids, land and tile fractions and grid box area on UM grid. Ice sheet masks are in output files and are time dependent.</span>
 
 
 <div style="height: 1.5em;"></div>
 
 **^^References^^**
 
-[1] Schiemann et al., 2026: REF!!!
+[1] Schiemann et al., 2026: <span style="color:red">REF</span>
+
 [2] Jones, C., et al. 2025: *The TIPMIP Earth system model experiment protocol: phase 1*. EGUsphere, (September), 1–45, [https://doi.org/10.5194/egusphere-2025-3604](https://egusphere.copernicus.org/preprints/2025/egusphere-2025-3604/). 
